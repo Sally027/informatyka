@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main(){
+	//for(stanpoczatkowy; warunekkoncowy; krok)
+	for(int i = 0; i <5; i++){
+	
+	cout << "literacja petli: " << i << endl;
+	}
+	//zagniezdzanie petli
+	for(int i =0; i <5;i++){
+		for (int j = 0; j < 5; j++){
+			cout<< "i:" << i;
+			cout << "j:" << i;
+		}
+	}
+
+	cout << endl;
+	system("pouse");
+	
+}
